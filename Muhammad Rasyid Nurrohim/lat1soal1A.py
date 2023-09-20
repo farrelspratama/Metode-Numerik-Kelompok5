@@ -22,5 +22,5 @@ def bisection_method(f, a, b, e): #bisection digunakan sebagai metode pencarian 
 a = -2  #batas dari bawah interval
 b = 2   #batas dari atas interval
 e = 1e-6  #tingkat toleransi error
-akar = bisection_method(f, a, b, e) #penggunaan metode biseksi
+akar = bisection_method(f, a, b, e) #pemanggilan fungsi metode biseksi
 print(f"Akar dari f(x) = x^3 - 2x + 1 adalah {akar}") #merupakan hasil output dari hasil akar yang telah ditemukan
