@@ -1,6 +1,6 @@
 import numpy as np #pemanggilan library
 
-def f(x): # digunakan untuk mencari akar dari f(
+def f(x): # digunakan untuk mencari akar dari f(x)
     return x**x - x
 
 # Mendefinisikan fungsi untuk mencari akar menggunakan metode bagi dua atau bisection
