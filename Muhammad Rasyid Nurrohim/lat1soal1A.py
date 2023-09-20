@@ -10,7 +10,7 @@ def bisection_method(f, a, b, e): #bisection digunakan sebagai metode pencarian 
     
     while (b - a) / 2 > e: # dugunakan untuk menghitung selisih antara b dan a lalu dibagi dua yang nantinya akan menghasilkan panjang interval
         m = (a + b) / 2  #m merupakan nilai tengah dari a dan b  dan digunakan sebagai nilai fungsi di tengah interval 
-        if f(m) == 0:
+        if f(m) == 0: #memeriksa apakah m sama dengan nol
             return m
         elif np.sign(f(m)) == np.sign(f(a)): #kondisi dimana f(m) dama dengan f(a), 
             a = m #jika kodisi tersebut memenuhi maka a akan diperbaharui menjadi m
